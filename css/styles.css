@@ -1,253 +1,311 @@
 /* Reset default styles */
 body,
 h1 {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  min-height: 100vh;
-  padding: 20px;
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	min-height: 100vh;
+	padding: 20px;
 }
 
 .title {
-  margin-bottom: 20px;
-  font-size: 24px;
-  color: #333;
+	margin-bottom: 20px;
+	font-size: 24px;
+	color: #333;
 }
 
 .container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 10px;
-  width: 100%;
-  max-width: 1200px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	gap: 10px;
+	width: 100%;
+	max-width: 1200px;
 }
 
 .participant {
-  background-color: white;
-  border: 2px solid #ccc;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
-  height: 150px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s, box-shadow 0.2s;
+	background-color: white;
+	border: 2px solid #ccc;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	height: 150px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	transition: transform 0.2s, box-shadow 0.2s;
 }
 
 /* Hover effect */
 .participant:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+	transform: scale(1.05);
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Default placeholder image */
 .profile-photo {
-  background-image: url("../images/placeholder.jpg");
-  background-size: cover;
-  background-position: center;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  margin-bottom: 10px;
-  border: 2px solid white;
+	background-image: url("../images/placeholder.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	margin-bottom: 10px;
+	border: 2px solid white;
 }
 
 /* Default name display */
 .participant-name::before {
-  content: attr(data-name);
-  font-weight: bold;
-  font-size: 14px;
-  text-align: center;
-  color: #555;
+	content: attr(data-name);
+	font-weight: bold;
+	font-size: 14px;
+	text-align: center;
+	color: #555;
 }
 
 /* Default quote styling */
 .participant-quote::before {
-  content: attr(data-quote);
-  font-style: italic;
-  font-size: 12px;
-  color: #777;
-  text-align: center;
-  margin-top: 5px;
-  display: block;
+	content: attr(data-quote);
+	font-style: italic;
+	font-size: 12px;
+	color: #777;
+	text-align: center;
+	margin-top: 5px;
+	display: block;
 }
 
 /* 🤗 Customization section for each participant */
 
-#participant-1 {
-}
+#participant-1 {}
+
 #participant-1 .profile-photo {
-  background-image: url("../images/participant-1.jpg");
+	background-image: url("../images/participant-1.jpg");
 }
+
 #participant-1 .participant-name::before {
-  content: "Your Name Here";
+	content: "Your Name Here";
 }
-#participant-1 .participant-quote::before {
-}
+
+#participant-1 .participant-quote::before {}
+
 /* Next participant */
-#participant-2 {
-}
+#participant-2 {}
+
 #participant-2 .profile-photo {
-  background-image: url("../images/participant-2.jpg");
+	background-image: url("../images/participant-2.jpg");
 }
+
 #participant-2 .participant-name::before {
-  content: "Your Name Here";
+	content: "Your Name Here";
 }
-#participant-2 .participant-quote::before {
-}
+
+#participant-2 .participant-quote::before {}
+
 /* Next participant */
-#participant-3 {
-}
+#participant-3 {}
+
 #participant-3 .profile-photo {
-  background-image: url("../images/participant-3.jpg");
+	background-image: url("../images/participant-3.jpg");
 }
+
 #participant-3 .participant-name::before {
-  content: "Your Name Here";
+	content: "Your Name Here";
 }
-#participant-3 .participant-quote::before {
-}
+
+#participant-3 .participant-quote::before {}
+
 /* Next participant */
-#participant-4 {
-}
+#participant-4 {}
+
 #participant-4 .profile-photo {
-  background-image: url("../images/participant-4.jpg");
+	background-image: url("../images/participant-4.jpg");
 }
+
 #participant-4 .participant-name::before {
-  content: "Your Name Here";
+	content: "Your Name Here";
 }
-#participant-4 .participant-quote::before {
-}
+
+#participant-4 .participant-quote::before {}
+
 /* Next participant */
-#participant-5 {
-}
+#participant-5 {}
+
 #participant-5 .profile-photo {
-  background-image: url("../images/participant-5.jpg");
+	background-image: url("../images/participant-5.jpg");
 }
+
 #participant-5 .participant-name::before {
-  content: "Your Name Here";
+	content: "Your Name Here";
 }
-#participant-5 .participant-quote::before {
-}
+
+#participant-5 .participant-quote::before {}
+
 /* Next participant */
-#participant-6 {
-}
+#participant-6 {}
+
 #participant-6 .profile-photo {
-  background-image: url("../images/participant-6.jpg");
+	background-image: url("../images/participant-6.jpg");
 }
+
 #participant-6 .participant-name::before {
-  content: "Your Name Here";
+	content: "Your Name Here";
 }
-#participant-6 .participant-quote::before {
-}
+
+#participant-6 .participant-quote::before {}
+
 /* Next participant */
-#participant-7 {
-}
+#participant-7 {}
+
 #participant-7 .profile-photo {
-  background-image: url("../images/participant-7.jpg");
+	background-image: url("../images/participant-7.jpg");
 }
+
 #participant-7 .participant-name::before {
-  content: "Your Name Here";
+	content: "Your Name Here";
 }
-#participant-7 .participant-quote::before {
-}
+
+#participant-7 .participant-quote::before {}
+
 /* Next participant */
-#participant-8 {
-}
+#participant-8 {}
+
 #participant-8 .profile-photo {
-  background-image: url("../images/participant-8.jpg");
+	background-image: url("../images/participant-8.jpg");
 }
+
 #participant-8 .participant-name::before {
-  content: "Your Name Here";
+	content: "Your Name Here";
 }
-#participant-8 .participant-quote::before {
-}
+
+#participant-8 .participant-quote::before {}
+
 /* Next participant */
-#participant-9 {
-}
+#participant-9 {}
+
 #participant-9 .profile-photo {
-  background-image: url("../images/participant-9.jpg");
+	background-image: url("../images/participant-9.jpg");
 }
+
 #participant-9 .participant-name::before {
-  content: "Your Name Here";
+	content: "Your Name Here";
 }
-#participant-9 .participant-quote::before {
-}
+
+#participant-9 .participant-quote::before {}
+
 /* Next participant */
-#participant-10 {
-}
+#participant-10 {}
+
 #participant-10 .profile-photo {
-  background-image: url("../images/participant-10.jpg");
+	background-image: url("../images/participant-10.jpg");
 }
+
 #participant-10 .participant-name::before {
-  content: "Your Name Here";
+	content: "Your Name Here";
 }
-#participant-10 .participant-quote::before {
-}
+
+#participant-10 .participant-quote::before {}
+
 /* Next participant */
-#participant-11 {
-}
+#participant-11 {}
+
 #participant-11 .profile-photo {
-  background-image: url("../images/participant-1.jpg");
+	background-image: url("../images/participant-1.jpg");
 }
+
 #participant-11 .participant-name::before {
-  content: "Your Name Here";
+	content: "Your Name Here";
 }
-#participant-11 .participant-quote::before {
-}
+
+#participant-11 .participant-quote::before {}
+
 /* Next participant */
-#participant-12 {
-}
+#participant-12 {}
+
 #participant-12 .profile-photo {
-  background-image: url("../images/participant-2.jpg");
+  background-image: url("https://i.postimg.cc/0QzyVh37/164804167-10220428796254359-8932809253350273528-n.jpg");
 }
 #participant-12 .participant-name::before {
-  content: "Your Name Here";
+  content: "12_Khomgrit(Ton/ต้น)";
 }
 #participant-12 .participant-quote::before {
 }
+
+#participant-12 .participant-quote::before {}
+
 /* Next participant */
 #participant-13 {
+  background-image: url("https://media.licdn.com/dms/image/v2/D5603AQGbduRoMI2m1A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1719571399096?e=1745452800&v=beta&t=tL9TGhGSVHCp6v1cvhgOrlBGEdcb6jDvhGVyrYBIqdM");
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 #participant-13 .profile-photo {
-  background-image: url("../images/participant-3.jpg");
+  border: none;
 }
+
 #participant-13 .participant-name::before {
-  content: "Your Name Here";
+  outline: 1px solid salmon;
+  position: absolute;
+  width: 90%;
+  padding: 0.2rem;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "Kittipan (Kob/กบ)";
+  color: #f4f4f4;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  background-color: #111;
 }
 #participant-13 .participant-quote::before {
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "Remember the 'why' that brought you here.";
+  font-size: 0.5rem;
+  color: #8d8d8d;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
 }
 /* Next participant */
-#participant-14 {
-}
+#participant-14 {}
+
 #participant-14 .profile-photo {
-  background-image: url("../images/participant-4.jpg");
+	background-image: url("../images/participant-4.jpg");
 }
+
 #participant-14 .participant-name::before {
-  content: "Your Name Here";
+	content: "Your Name Here";
 }
-#participant-14 .participant-quote::before {
-}
+
+#participant-14 .participant-quote::before {}
+
 /* Next participant */
-#participant-15 {
-}
+#participant-15 {}
+
 #participant-15 .profile-photo {
-  background-image: url("../images/participant-5.jpg");
+	background-image: url("../images/participant-5.jpg");
 }
+
 #participant-15 .participant-name::before {
-  content: "Your Name Here";
+	content: "Your Name Here";
 }
-#participant-15 .participant-quote::before {
-}
+
+#participant-15 .participant-quote::before {}
+
 /* Next participant */
 #participant-16 {
   background: linear-gradient(to top, rgb(255, 250, 250), rgb(255, 216, 216));
@@ -265,256 +323,340 @@ body {
 #participant-16 .profile-photo {
   background-image: url("../images/jsd_orachun_profile.jpg");
 }
+
 #participant-16 .participant-name::before {
   content: "Orachun (ชี้ค)";
 }
 #participant-16 .participant-quote::before {
   content: "Knowledge is The Endless journey.🎠";
 }
+
+#participant-16 .participant-quote::before {}
+
 /* Next participant */
 #participant-17 {
+  background: radial-gradient(circle, rgba(63, 215, 251, 0.435) 0%, rgba(217, 252, 70, 1) 100%);
+  border: 3px solid rgba(39, 59, 20, 0.759);
+  box-shadow: 0 5px 10px rgb(199, 208, 159);
+  border-radius: 15px;
 }
+
 #participant-17 .profile-photo {
-  background-image: url("../images/participant-7.jpg");
+  background-image: url("../images/oraya-profile.jpg");
 }
+
 #participant-17 .participant-name::before {
-  content: "Your Name Here";
+  content: "Oraya Chantanawat";
 }
+
 #participant-17 .participant-quote::before {
+  content: "🚀 Never stop learning, because life never stops teaching.";
 }
+
 /* Next participant */
-#participant-18 {
-}
+#participant-18 {}
+
 #participant-18 .profile-photo {
-  background-image: url("../images/participant-8.jpg");
+	background-image: url("../images/participant-8.jpg");
 }
+
 #participant-18 .participant-name::before {
-  content: "Your Name Here";
+	content: "Your Name Here";
 }
-#participant-18 .participant-quote::before {
-}
+
+#participant-18 .participant-quote::before {}
+
 /* Next participant */
-#participant-19 {
-}
+#participant-19 {}
+
 #participant-19 .profile-photo {
-  background-image: url("../images/participant-9.jpg");
+	background-image: url("../images/participant-9.jpg");
 }
+
 #participant-19 .participant-name::before {
-  content: "Your Name Here";
+	content: "Your Name Here";
 }
-#participant-19 .participant-quote::before {
-}
+
+#participant-19 .participant-quote::before {}
+
 /* Next participant */
-#participant-20 {
-}
+#participant-20 {}
+
 #participant-20 .profile-photo {
-  background-image: url("../images/participant-10.jpg");
+  background-image: url("/images/เสือ.jpg");
 }
+
 #participant-20 .participant-name::before {
-  content: "Your Name Here";
+  content: "pongharit kitudom";
 }
-#participant-20 .participant-quote::before {
-}
+
+#participant-20 .participant-quote::before {}
+
 /* Next participant */
-#participant-21 {
-}
+#participant-21 {}
+
 #participant-21 .profile-photo {
-  background-image: url("../images/participant-1.jpg");
+	background-image: url("../images/participant-1.jpg");
 }
+
 #participant-21 .participant-name::before {
-  content: "Your Name Here";
+	content: "Your Name Here";
 }
-#participant-21 .participant-quote::before {
-}
+
+#participant-21 .participant-quote::before {}
+
 /* Next participant */
-#participant-22 {
-}
+#participant-22 {}
+
 #participant-22 .profile-photo {
-  background-image: url("../images/participant-2.jpg");
+	background-image: url("../images/participant-2.jpg");
 }
+
 #participant-22 .participant-name::before {
-  content: "Your Name Here";
+	content: "Your Name Here";
 }
-#participant-22 .participant-quote::before {
-}
+
+#participant-22 .participant-quote::before {}
+
 /* Next participant */
-#participant-23 {
-}
+#participant-23 {}
+
 #participant-23 .profile-photo {
-  background-image: url("../images/participant-3.jpg");
+	background-image: url("../images/sudkhett.jpg");
 }
+
 #participant-23 .participant-name::before {
-  content: "Your Name Here";
+	content: "Sudkhett Pitakplangkru";
 }
-#participant-23 .participant-quote::before {
-}
+
+#participant-23 .participant-quote::before {}
+
 /* Next participant */
-#participant-24 {
-}
+#participant-24 {}
+
 #participant-24 .profile-photo {
-  background-image: url("../images/participant-4.jpg");
+	background-image: url("../images/participant-4.jpg");
 }
+
 #participant-24 .participant-name::before {
-  content: "Your Name Here";
+	content: "Your Name Here";
 }
-#participant-24 .participant-quote::before {
-}
+
+#participant-24 .participant-quote::before {}
+
 /* Next participant */
-#participant-25 {
-}
+#participant-25 {}
+
 #participant-25 .profile-photo {
-  background-image: url("../images/participant-5.jpg");
+	background-image: url("../images/participant-5.jpg");
 }
+
 #participant-25 .participant-name::before {
-  content: "Your Name Here";
+	content: "Your Name Here";
 }
-#participant-25 .participant-quote::before {
-}
+
+#participant-25 .participant-quote::before {}
+
 /* Next participant */
-#participant-26 {
-}
+#participant-26 {}
+
 #participant-26 .profile-photo {
-  background-image: url("../images/participant-6.jpg");
+	background-image: url("../images/participant-6.jpg");
 }
+
 #participant-26 .participant-name::before {
-  content: "Your Name Here";
+	content: "Your Name Here";
 }
-#participant-26 .participant-quote::before {
-}
+
+#participant-26 .participant-quote::before {}
+
 /* Next participant */
-#participant-27 {
-}
+#participant-27 {}
+
 #participant-27 .profile-photo {
-  background-image: url("../images/participant-7.jpg");
+	background-image: url("../images/participant-7.jpg");
 }
+
 #participant-27 .participant-name::before {
-  content: "Your Name Here";
+	content: "Your Name Here";
 }
-#participant-27 .participant-quote::before {
-}
+
+#participant-27 .participant-quote::before {}
+
 /* Next participant */
-#participant-28 {
-}
+#participant-28 {}
+
 #participant-28 .profile-photo {
-  background-image: url("../images/participant-8.jpg");
+	background-image: url("../images/participant-8.jpg");
 }
+
 #participant-28 .participant-name::before {
-  content: "Your Name Here";
+	content: "Your Name Here";
 }
-#participant-28 .participant-quote::before {
-}
+
+#participant-28 .participant-quote::before {}
+
 /* Next participant */
-#participant-29 {
-}
+#participant-29 {}
+
 #participant-29 .profile-photo {
-  background-image: url("../images/participant-9.jpg");
+	background-image: url("../images/participant-9.jpg");
 }
+
 #participant-29 .participant-name::before {
-  content: "Your Name Here";
+	content: "Your Name Here";
 }
-#participant-29 .participant-quote::before {
-}
+
+#participant-29 .participant-quote::before {}
+
 /* Next participant */
-#participant-30 {
-}
+#participant-30 {}
+
 #participant-30 .profile-photo {
-  background-image: url("../images/participant-10.jpg");
+	background-image: url("../images/participant-10.jpg");
 }
+
 #participant-30 .participant-name::before {
-  content: "Your Name Here";
+	content: "Your Name Here";
 }
-#participant-30 .participant-quote::before {
-}
+
+#participant-30 .participant-quote::before {}
+
 /* Next participant */
-#participant-31 {
-}
+#participant-31 {}
+
 #participant-31 .profile-photo {
-  background-image: url("../images/participant-1.jpg");
+	background-image: url("../images/participant-1.jpg");
 }
+
 #participant-31 .participant-name::before {
-  content: "Your Name Here";
+	content: "Your Name Here";
 }
-#participant-31 .participant-quote::before {
-}
+
+#participant-31 .participant-quote::before {}
+
 /* Next participant */
-#participant-32 {
-}
+#participant-32 {}
+
 #participant-32 .profile-photo {
-  background-image: url("../images/participant-2.jpg");
+	background-image: url("../images/participant-2.jpg");
 }
+
 #participant-32 .participant-name::before {
-  content: "Your Name Here";
+	content: "Your Name Here";
 }
-#participant-32 .participant-quote::before {
-}
+
+#participant-32 .participant-quote::before {}
+
 /* Next participant */
-#participant-33 {
-}
+#participant-33 {}
+
 #participant-33 .profile-photo {
-  background-image: url("../images/participant-3.jpg");
+	background-image: url("../images/participant-3.jpg");
 }
+
 #participant-33 .participant-name::before {
-  content: "Your Name Here";
+	content: "Your Name Here";
 }
-#participant-33 .participant-quote::before {
-}
+
+#participant-33 .participant-quote::before {}
+
 /* Next participant */
-#participant-34 {
-}
+#participant-34 {}
+
 #participant-34 .profile-photo {
-  background-image: url("../images/participant-4.jpg");
+	background-image: url("../images/participant-4.jpg");
 }
+
 #participant-34 .participant-name::before {
-  content: "Your Name Here";
+	content: "Your Name Here";
 }
-#participant-34 .participant-quote::before {
-}
+
+#participant-34 .participant-quote::before {}
+
 /* Next participant */
-#participant-35 {
-}
+#participant-35 {}
+
 #participant-35 .profile-photo {
-  background-image: url("../images/participant-5.jpg");
+	background-image: url("../images/participant-5.jpg");
 }
+
 #participant-35 .participant-name::before {
-  content: "Your Name Here";
+	content: "Your Name Here";
 }
-#participant-35 .participant-quote::before {
-}
+
+#participant-35 .participant-quote::before {}
+
 /* Next participant */
-#participant-36 {
-}
+#participant-36 {}
+
 #participant-36 .profile-photo {
-  background-image: url("../images/participant-6.jpg");
+	background-image: url("../images/participant-6.jpg");
 }
+
 #participant-36 .participant-name::before {
-  content: "Your Name Here";
+	content: "Your Name Here";
 }
-#participant-36 .participant-quote::before {
-}
+
+#participant-36 .participant-quote::before {}
+
 /* Next participant */
 #participant-37 {
+	background-color: #333;
+	border: 2px solid #333;
+	border-radius: 0;
 }
 #participant-37 .profile-photo {
-  background-image: url("../images/participant-7.jpg");
+	background-image: url("https://introduction-to-web-application.vercel.app/profile.jpg");
+	clip-path: polygon(
+		evenodd,
+		35.75% 25.45%,
+		63.17% 26.81%,
+		73.25% 10.5%,
+		83.96% 35.5%,
+		89.23% 47.8%,
+		84.41% 69.9%,
+		73.25% 85.5%,
+		60.75% 85.5%,
+		60.75% 85.5%,
+		35.75% 85.5%,
+		35.75% 85.5%,
+		23.25% 85.5%,
+		12.54% 69.9%,
+		9.95% 52.7%,
+		12.54% 35.5%,
+		24.15% 10.5%
+	);
 }
 #participant-37 .participant-name::before {
-  content: "Your Name Here";
+	content: "John Doe";
+	color: gold;
+	font-weight: 600;
+	font-family: monospace;
 }
 #participant-37 .participant-quote::before {
+	content: "Kindness is the ultimate strength. 😎";
+	color: gold;
+	font-family: monospace;
+	font-style: normal;
+	font-weight: 300;
 }
 /* Next participant */
 #participant-38 {
-  background-color: #e0f7fa;
-  border: 3px solid #00796b;
-  box-shadow: 0 4px 10px rgba(0, 121, 107, 0.4);
-  border-radius: 15px;
+	background-color: #e0f7fa;
+	border: 3px solid #00796b;
+	box-shadow: 0 4px 10px rgba(0, 121, 107, 0.4);
+	border-radius: 15px;
 }
+
 #participant-38 .profile-photo {
-  background-image: url("../images/neetibut-profile.png");
+	background-image: url("../images/neetibut-profile.png");
 }
+
 #participant-38 .participant-name::before {
-  content: "Neeti(นิติ)";
+	content: "Neeti(นิติ)";
 }
+
 #participant-38 .participant-quote::before {
-  content: "Be the change you want to see in the world. 🙌";
+	content: "Be the change you want to see in the world. 🙌";
 }
