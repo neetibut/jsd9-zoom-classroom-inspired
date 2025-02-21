@@ -189,7 +189,7 @@ body {
   background-image: url("../images/participant-10.jpg");
 }
 #participant-10 .participant-name::before {
-  content: "Your Name Here";
+  content: "Kanokwan (Ling)";
 }
 #participant-10 .participant-quote::before {
 }
