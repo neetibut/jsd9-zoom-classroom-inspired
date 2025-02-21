@@ -116,7 +116,7 @@ body {
   border-color: #d670d16c;
 }
 #participant-3 .participant-name::before {
-  content: "Aticha (Blue/บลู)";
+  content: "Aticha (Blue)";
   font-weight: 700;
   background-color: #f0f0f0c0;
   border-radius: 0.5rem;
