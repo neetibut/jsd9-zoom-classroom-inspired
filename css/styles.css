@@ -339,14 +339,22 @@ body {
 }
 
 /* Next participant */
-#participant-18 {}
+#participant-18 {
+	background: repeating-radial-gradient(yellow blue 20%
+	);
+	border: 2px; 
+	/* box-shadow: blue; */
+	border-radius: 10px;
+	width: 250px;
+	height: 250px;
+}
 
 #participant-18 .profile-photo {
-	background-image: url("../images/participant-8.jpg");
+	background-image: url("../images/TOEY.jpg");
 }
 
 #participant-18 .participant-name::before {
-	content: "Your Name Here";
+	content: "Phaothai chokbundit Toey";
 }
 
 #participant-18 .participant-quote::before {}
