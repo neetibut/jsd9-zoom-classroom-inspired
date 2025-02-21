@@ -307,14 +307,28 @@ body {
 #participant-15 .participant-quote::before {}
 
 /* Next participant */
-#participant-16 {}
-
+#participant-16 {
+  background: linear-gradient(to top, rgb(255, 250, 250), rgb(255, 216, 216));
+  background-color: #f8e6e6;
+  border: 3px solid #921d09;
+  border-bottom-color: #df035f;
+  border-bottom-style: dashed;
+  box-shadow: 0 4px 10px rgba(0, 121, 107, 0.4);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
 #participant-16 .profile-photo {
-	background-image: url("../images/participant-6.jpg");
+  background-image: url("../images/jsd_orachun_profile.jpg");
 }
 
 #participant-16 .participant-name::before {
-	content: "Your Name Here";
+  content: "Orachun (ชี้ค)";
+}
+#participant-16 .participant-quote::before {
+  content: "Knowledge is The Endless journey.🎠";
 }
 
 #participant-16 .participant-quote::before {}
