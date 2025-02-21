@@ -217,14 +217,43 @@ body {
 }
 /* Next participant */
 #participant-13 {
+  background-image: url("https://media.licdn.com/dms/image/v2/D5603AQGbduRoMI2m1A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1719571399096?e=1745452800&v=beta&t=tL9TGhGSVHCp6v1cvhgOrlBGEdcb6jDvhGVyrYBIqdM");
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 #participant-13 .profile-photo {
-  background-image: url("../images/participant-3.jpg");
+  border: none;
 }
 #participant-13 .participant-name::before {
-  content: "Your Name Here";
+  outline: 1px solid salmon;
+  position: absolute;
+  width: 90%;
+  padding: 0.2rem;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "Kittipan (Kob/กบ)";
+  color: #f4f4f4;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+
+  background-color: #111;
 }
 #participant-13 .participant-quote::before {
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "Remember the 'why' that brought you here.";
+  font-size: 0.5rem;
+  color: #8d8d8d;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
 }
 /* Next participant */
 #participant-14 {
