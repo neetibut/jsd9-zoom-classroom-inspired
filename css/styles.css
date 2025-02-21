@@ -230,11 +230,12 @@ body {
 #participant-12 {}
 
 #participant-12 .profile-photo {
-	background-image: url("../images/participant-2.jpg");
+  background-image: url("https://i.postimg.cc/0QzyVh37/164804167-10220428796254359-8932809253350273528-n.jpg");
 }
-
 #participant-12 .participant-name::before {
-	content: "Your Name Here";
+  content: "12_Khomgrit(Ton/ต้น)";
+}
+#participant-12 .participant-quote::before {
 }
 
 #participant-12 .participant-quote::before {}
