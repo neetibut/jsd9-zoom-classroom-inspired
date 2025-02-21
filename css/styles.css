@@ -407,11 +407,11 @@ body {
 #participant-23 {}
 
 #participant-23 .profile-photo {
-	background-image: url("../images/participant-3.jpg");
+	background-image: url("../images/sudkhett.jpg");
 }
 
 #participant-23 .participant-name::before {
-	content: "Your Name Here";
+	content: "Sudkhett Pitakplangkru";
 }
 
 #participant-23 .participant-quote::before {}
