@@ -350,7 +350,7 @@ body {
 }
 
 #participant-18 .profile-photo {
-	background-image: url("../images/TOEY.jpg");
+	background-image: url("../images/TOEY.jpg") ;
 }
 
 #participant-18 .participant-name::before {
