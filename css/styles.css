@@ -219,10 +219,6 @@ body {
   background-color: #530079;
   padding: 7px;
   border-radius: 3rem;
-  -webkit-border-radius: 3rem;
-  -moz-border-radius: 3rem;
-  -ms-border-radius: 3rem;
-  -o-border-radius: 3rem;
 }
 #participant-12 .participant-quote::before {
   content: "Stay humble ";
@@ -233,10 +229,6 @@ body {
   padding: 7px;
   background-color: #530079;
   border-radius: 3rem;
-  -webkit-border-radius: 3rem;
-  -moz-border-radius: 3rem;
-  -ms-border-radius: 3rem;
-  -o-border-radius: 3rem;
 }
 /* Next participant */
 #participant-13 {
