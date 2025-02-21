@@ -393,14 +393,28 @@ body {
 }
 /* Next participant */
 #participant-29 {
+  background-image: linear-gradient(to top, #55c8e5, #3fd1d5, #55d7ba, #7fd999, #aed879, #cdcd68, #e9c063, #ffb26a, #ff9f7c, #ff8f97, #ff87b5, #e788d2);
+  border: 3px solid #000000;
+  border-radius: 15px;
 }
+
 #participant-29 .profile-photo {
-  background-image: url("../images/participant-9.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: 50%;
+  margin-bottom: 10px;
+  border: 2px solid white;
+  border-radius: 0;
+  background-image: url("../images/jets_cat.jpg");
 }
+
 #participant-29 .participant-name::before {
-  content: "Your Name Here";
+  content: "Jett";
 }
+
 #participant-29 .participant-quote::before {
+  content: "Be grateful and enjoy your life. 😁🙏";
 }
 /* Next participant */
 #participant-30 {
