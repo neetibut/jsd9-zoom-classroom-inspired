@@ -296,10 +296,10 @@ body {
 #participant-20 {
 }
 #participant-20 .profile-photo {
-  background-image: url("../images/participant-10.jpg");
+  background-image: url("/images/เสือ.jpg");
 }
 #participant-20 .participant-name::before {
-  content: "Your Name Here";
+  content: "pongharit kitudom";
 }
 #participant-20 .participant-quote::before {
 }
