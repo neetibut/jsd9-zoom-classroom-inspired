@@ -83,9 +83,7 @@ body {
 }
 
 /* 🤗 Customization section for each participant */
-
-#participant-1 {
-}
+#participant-1 {}
 
 #participant-1 .profile-photo {
   background-image: url("../images/participant-1.jpg");
@@ -115,32 +113,63 @@ body {
 
 /* Next participant */
 #participant-3 {
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,0.9220063025210083) 0%, rgba(148,233,218,0.9023984593837535) 100%);
+  border-color: rgb(235, 234, 219);
 }
-
 #participant-3 .profile-photo {
-  background-image: url("../images/participant-3.jpg");
+  background-image: url("../images/blue_profile.jpg");
+  border-color: #d670d16c;
 }
 
 #participant-3 .participant-name::before {
-  content: "Your Name Here";
+  content: "Aticha (Blue)";
+  font-weight: 700;
+  background-color: #f0f0f0c0;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
 }
-
 #participant-3 .participant-quote::before {
+  content: "Anything can happen⭐";
+  font-weight: 600;
+  background-color: #f0f0f0c0;
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  text-align: center;
 }
-
 /* Next participant */
 #participant-4 {
+	background-image: url(https://www.hungryones.com/wp-content/uploads/2023/06/2013.3.29.forest.gump_._2431.1-scaled.jpg);
+	background-size: cover;
+	background-position: top ;
+	background-repeat: no-repeat;
 }
 
 #participant-4 .profile-photo {
-  background-image: url("../images/participant-4.jpg");
+	background-image: url("../images/forest_tong.jpg");
 }
 
 #participant-4 .participant-name::before {
-  content: "Your Name Here";
+	content: "Chirayuth Konghin";
+	color: #121212;
+	background-color: #e33e3e;
+	padding: 3px;
+	border-radius: 5px;
+	filter: drop-shadow(1px 1px 1px rgb(239, 232, 232));
 }
 
 #participant-4 .participant-quote::before {
+	content: "Run! Code ... Run !!!";
+	font-size: 0.8rem;
+	font-weight: 600;
+	color: #ffffff;
 }
 
 /* Next participant */
@@ -175,14 +204,22 @@ body {
 
 /* Next participant */
 #participant-7 {
+  background-image: url(https://today-obs.line-scdn.net/0hdGvxMVhoO2hLASwXgqpEP3NXNxl4ZyFhaTNwWmgFMVhmLXo-cTBoCz5SZkRvMys7azUjCjxVYlxhZC49Jw/w644);
+  background-size: cover;
 }
-
 #participant-7 .profile-photo {
-  background-image: url("../images/participant-7.jpg");
+  background-image: url("https://i.pinimg.com/736x/b8/c7/f2/b8c7f2f39c28ae20a95ef631cdb6d20a.jpg");
 }
 
 #participant-7 .participant-name::before {
-  content: "Your Name Here";
+  content: "Jakapat Pattanasiri";
+  font-weight: bold;
+  color: rgb(255, 242, 0);
+}
+#participant-7 .participant-quote::before {
+  content: "No enemy, but if you have one, it's yourself.";
+  font-weight: bold;
+  color: rgb(0, 0, 0);
 }
 
 #participant-7 .participant-quote::before {
@@ -238,7 +275,8 @@ body {
 }
 
 #participant-11 .profile-photo {
-  background-image: url("../images/participant-1.jpg");
+	background-image: url("../images/participant-1.jpg");
+	border: #111 solid 2px;
 }
 
 #participant-11 .participant-name::before {
@@ -253,11 +291,12 @@ body {
 }
 
 #participant-12 .profile-photo {
-  background-image: url("../images/participant-2.jpg");
+  background-image: url("https://i.postimg.cc/0QzyVh37/164804167-10220428796254359-8932809253350273528-n.jpg");
 }
-
 #participant-12 .participant-name::before {
-  content: "Your Name Here";
+  content: "12_Khomgrit(Ton/ต้น)";
+}
+#participant-12 .participant-quote::before {
 }
 
 #participant-12 .participant-quote::before {
@@ -320,14 +359,24 @@ body {
 
 /* Next participant */
 #participant-15 {
+  background-color: #9a97c6;
+  border: 3px solid #00796b;
+  box-shadow: 0 4px 10px rgba(0, 121, 107, 0.4);
+  border-radius: 15px;
 }
-
 #participant-15 .profile-photo {
-  background-image: url("../images/participant-5.jpg");
+  background-image: url("../images/nutpic.jpg");
+  outline: rgb(143, 63, 63) solid;
+  border: 0px;
 }
 
 #participant-15 .participant-name::before {
-  content: "Your Name Here";
+  content: "Nuttnon(Nut)";
+  color: #ddd9d3;
+}
+#participant-15 .participant-quote::before {
+  content: "keep moving forward,every step brings you closer to sucsess";
+  color: #ddd9d3;
 }
 
 #participant-15 .participant-quote::before {
@@ -335,14 +384,27 @@ body {
 
 /* Next participant */
 #participant-16 {
+  background: linear-gradient(to top, rgb(255, 250, 250), rgb(255, 216, 216));
+  background-color: #f8e6e6;
+  border: 3px solid #921d09;
+  border-bottom-color: #df035f;
+  border-bottom-style: dashed;
+  box-shadow: 0 4px 10px rgba(0, 121, 107, 0.4);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
-
 #participant-16 .profile-photo {
-  background-image: url("../images/participant-6.jpg");
+  background-image: url("../images/jsd_orachun_profile.jpg");
 }
 
 #participant-16 .participant-name::before {
-  content: "Your Name Here";
+  content: "Orachun (ชี้ค)";
+}
+#participant-16 .participant-quote::before {
+  content: "Knowledge is The Endless journey.🎠";
 }
 
 #participant-16 .participant-quote::before {
@@ -374,17 +436,26 @@ body {
 
 /* Next participant */
 #participant-18 {
+	background: repeating-radial-gradient(yellow blue 20%
+	);
+	border: 2px; 
+	/* box-shadow: blue; */
+	border-radius: 10px;
+	width: 250px;
+	height: 250px;
 }
 
 #participant-18 .profile-photo {
-  background-image: url("../images/participant-8.jpg");
+	background-image: url("../images/toey.jpg") ;
+    background-repeat: no-repeat;
 }
 
 #participant-18 .participant-name::before {
-  content: "Your Name Here";
+	content: "Phaothai chokbundit Toey";
 }
 
 #participant-18 .participant-quote::before {
+	content: "สู้ๆนะครับ";
 }
 
 /* Next participant */
@@ -404,19 +475,21 @@ body {
 
 /* Next participant */
 #participant-20 {
+  background-color: blueviolet;
+  border: solid 5px #cc2581;
 }
-
 #participant-20 .profile-photo {
   background-image: url("/images/เสือ.jpg");
 }
-
 #participant-20 .participant-name::before {
   content: "pongharit kitudom";
+  font-weight: 600;
+  color: antiquewhite;
 }
-
 #participant-20 .participant-quote::before {
+  content: "💡 อยากพัก แต่บั๊กบอกให้ไปต่อ" ;
+  color: #ccc;
 }
-
 /* Next participant */
 #participant-21 {
 }
@@ -541,14 +614,15 @@ body {
 }
 
 #participant-28 .profile-photo {
-  background-image: url("../images/participant-8.jpg");
+	background-image: url("../images/profile.jpg");
 }
 
 #participant-28 .participant-name::before {
-  content: "Your Name Here";
+	content: "Tawatchai Jitporn";
 }
 
 #participant-28 .participant-quote::before {
+	content: "Keep Learning!!! Keep Going!!!";
 }
 
 /* Next participant */
@@ -583,19 +657,23 @@ body {
 
 /* Next participant */
 #participant-31 {
+  position: relative;
+  border: 0;
+  background-image: linear-gradient(to right bottom, #747481, #5d5d67, #47474e, #323236, #1e1e20);
 }
-
 #participant-31 .profile-photo {
-  background-image: url("../images/participant-1.jpg");
+  background-image: url("../images/241016-resume-hug.jpg");
+  background-position: top;
 }
 
 #participant-31 .participant-name::before {
-  content: "Your Name Here";
+  color: #fff;
+  content: "Thanawat (อาร์ต)";
 }
-
 #participant-31 .participant-quote::before {
+  color: #d5d5da;
+  content: "Failure isn't real unless you quit for real";
 }
-
 /* Next participant */
 #participant-32 {
 }
