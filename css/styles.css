@@ -55,11 +55,15 @@ body {
   background-image: url("../images/placeholder.jpg");
   background-size: cover;
   background-position: center;
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   margin-bottom: 10px;
   border: 2px solid white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 /* Default name display */
@@ -475,20 +479,19 @@ body {
 
 /* Next participant */
 #participant-20 {
-  background-color: blueviolet;
-  border: solid 5px #cc2581;
+  background-color: #900C3F ;
+  border: solid 5px #C70039  ;
 }
 #participant-20 .profile-photo {
   background-image: url("/images/เสือ.jpg");
 }
 #participant-20 .participant-name::before {
   content: "pongharit kitudom";
-  font-weight: 600;
-  color: antiquewhite;
+  color:#FFC300  ;
 }
 #participant-20 .participant-quote::before {
-  content: "💡 อยากพัก แต่บั๊กบอกให้ไปต่อ" ;
-  color: #ccc;
+  content: "🚀 ถ้าเธอชอบคนเก่ง เราเขียน Hello World เป็นนะ" ;
+  color: #DAF7A6;
 }
 /* Next participant */
 #participant-21 {
