@@ -261,17 +261,89 @@ body {
 
 /* Next participant */
 #participant-9 {
+  background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  background-size: 200% 200%;
+  background-position: 0 50%;
+  border: none;
+  outline: none;
+  transition: all 0.3s ease;
+  animation: backgroundShift 3s linear infinite alternate;
+}
+
+#participant-9:hover {
+  border-radius: 0;
+  border: none;
+}
+
+@keyframes backgroundShift {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
 }
 
 #participant-9 .profile-photo {
-  background-image: url("../images/participant-9.jpg");
+  background: url("../images/JHA-09.jpg") center/cover no-repeat;
 }
 
 #participant-9 .participant-name::before {
-  content: "Your Name Here";
+  content: "JHA J.";
+  color: #FFF;
 }
 
 #participant-9 .participant-quote::before {
+  content: 'Rise and slay. Try again..';
+  font-size: 0.7rem;
+  color: #FFF;
+  border-right: 2px solid #FFF;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  width: 0;
+  opacity: 0;
+  animation: textTyping 5s steps(24) 1s forwards, blinkCursor 0.75s step-end infinite;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes textTyping {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+@keyframes blinkCursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+#participant-9 .participant-quote::after {
+  content: "";
+  animation: textErase 4s steps(24) 5s forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes textErase {
+  0% {
+    width: 100%;
+    opacity: 1;
+  }
+  100% {
+    width: 0;
+    opacity: 0;
+  }
 }
 
 /* Next participant */
