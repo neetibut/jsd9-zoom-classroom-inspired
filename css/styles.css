@@ -407,18 +407,23 @@ body {
 #participant-19 .participant-quote::before {}
 
 /* Next participant */
-#participant-20 {}
-
+#participant-20 {
+  background-color: blueviolet;
+  border: solid 5px #cc2581;
+}
 #participant-20 .profile-photo {
   background-image: url("/images/เสือ.jpg");
 }
 
 #participant-20 .participant-name::before {
   content: "pongharit kitudom";
+  font-weight: 600;
+  color: antiquewhite;
 }
-
-#participant-20 .participant-quote::before {}
-
+#participant-20 .participant-quote::before {
+  content: "💡 อยากพัก แต่บั๊กบอกให้ไปต่อ" ;
+  color: #ccc;
+}
 /* Next participant */
 #participant-21 {}
 
