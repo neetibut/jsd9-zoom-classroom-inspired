@@ -110,18 +110,38 @@ body {
 #participant-2 .participant-quote::before {}
 
 /* Next participant */
-#participant-3 {}
-
+#participant-3 {
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,0.9220063025210083) 0%, rgba(148,233,218,0.9023984593837535) 100%);
+  border-color: rgb(235, 234, 219);
+}
 #participant-3 .profile-photo {
-	background-image: url("../images/participant-3.jpg");
+  background-image: url("../images/blue_profile.jpg");
+  border-color: #d670d16c;
 }
 
 #participant-3 .participant-name::before {
-	content: "Your Name Here";
+  content: "Aticha (Blue)";
+  font-weight: 700;
+  background-color: #f0f0f0c0;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
 }
-
-#participant-3 .participant-quote::before {}
-
+#participant-3 .participant-quote::before {
+  content: "Anything can happen⭐";
+  font-weight: 600;
+  background-color: #f0f0f0c0;
+  border-radius: 0.5rem;
+  font-size: 0.75rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  text-align: center;
+}
 /* Next participant */
 #participant-4 {
 	background-image: url(https://www.hungryones.com/wp-content/uploads/2023/06/2013.3.29.forest.gump_._2431.1-scaled.jpg);
