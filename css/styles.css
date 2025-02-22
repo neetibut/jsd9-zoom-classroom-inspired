@@ -83,7 +83,6 @@ body {
 }
 
 /* 🤗 Customization section for each participant */
-
 #participant-1 {}
 
 #participant-1 .profile-photo {
@@ -597,18 +596,24 @@ body {
 #participant-30 .participant-quote::before {}
 
 /* Next participant */
-#participant-31 {}
-
+#participant-31 {
+  position: relative;
+  border: 0;
+  background-image: linear-gradient(to right bottom, #747481, #5d5d67, #47474e, #323236, #1e1e20);
+}
 #participant-31 .profile-photo {
-	background-image: url("../images/participant-1.jpg");
+  background-image: url("../images/241016-resume-hug.jpg");
+  background-position: top;
 }
 
 #participant-31 .participant-name::before {
-	content: "Your Name Here";
+  color: #fff;
+  content: "Thanawat (อาร์ต)";
 }
-
-#participant-31 .participant-quote::before {}
-
+#participant-31 .participant-quote::before {
+  color: #d5d5da;
+  content: "Failure isn't real unless you quit for real";
+}
 /* Next participant */
 #participant-32 {}
 
