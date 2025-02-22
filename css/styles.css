@@ -261,17 +261,26 @@ body {
 
 /* Next participant */
 #participant-10 {
+  background: linear-gradient(to right, #e7bc45, #526daa) ;
+  border: #504c4c solid 1px;
+  box-shadow: 1.5px 1.5px 2.5px #3a3737, 2.5px 2.5px 4.5px #2a2828;
 }
 
 #participant-10 .profile-photo {
-  background-image: url("../images/participant-10.jpg");
+  background-image: url("https://ca.slack-edge.com/T08AK72NJM6-U08B0KB6E5P-29f774fc9fdc-512");
 }
 
 #participant-10 .participant-name::before {
-  content: "Your Name Here";
+  content: "Ling(หลิง)";
+  color: #EDF3FE;
+  text-shadow: #2a2828 2px 2px 2px;
+
 }
 
 #participant-10 .participant-quote::before {
+  content: "Don't give up easily, since you'll end up starting again anyway.";
+  color: #EDF3FE;
+  text-shadow: #2a2828 1px 1px 5px;
 }
 
 /* Next participant */
