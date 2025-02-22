@@ -726,17 +726,23 @@ body {
 
 /* Next participant */
 #participant-35 {
+	background-color: #85A947;
+	border: 3px solid #3E7B27;
 }
 
 #participant-35 .profile-photo {
-  background-image: url("../images/participant-5.jpg");
+	background-image: url("https://static.vecteezy.com/system/resources/thumbnails/008/101/584/small_2x/floating-green-mustard-lettuce-cartoon-icon-illustration-food-nature-icon-concept-isolated-premium-vector.jpg");
+	border: 3px solid #3E7B27
 }
 
 #participant-35 .participant-name::before {
-  content: "Your Name Here";
+	content: "pakkaddd";
+	color: #123524;
 }
 
 #participant-35 .participant-quote::before {
+	content: "may the force be with you.";
+	color: #123524;
 }
 
 /* Next participant */
