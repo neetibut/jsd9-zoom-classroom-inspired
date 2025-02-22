@@ -567,17 +567,22 @@ body {
 
 /* Next participant */
 #participant-26 {
+	background-color: #efc9af;
+	border: 3px solid #104c91;
+	box-shadow: 0 4px 10px #1f8ac0;
+	border-radius: 15px;
 }
 
 #participant-26 .profile-photo {
-  background-image: url("../images/participant-6.jpg");
+	background-image: url("../images/tanida-profile.jpg");
 }
 
 #participant-26 .participant-name::before {
-  content: "Your Name Here";
+	content: "Tanida (Pang/แป้ง)";
 }
 
 #participant-26 .participant-quote::before {
+	content: "Don't Stop Until Your're Proud.";
 }
 
 /* Next participant */
