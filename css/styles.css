@@ -292,20 +292,30 @@ body {
 
 /* Next participant */
 #participant-12 {
+  border: solid 3px #ffffff;
+  background-image :url(https://i.postimg.cc/kXj8Xsg2/Cloth-Scene.gif); 
+  filter: drop-shadow(0 0 0.75rem #530079);
 }
-
 #participant-12 .profile-photo {
-  background-image: url("https://i.postimg.cc/0QzyVh37/164804167-10220428796254359-8932809253350273528-n.jpg");
+  background-image: url(https://i.postimg.cc/C56DMyyL/4.png);
 }
 #participant-12 .participant-name::before {
-  content: "12_Khomgrit(Ton/ต้น)";
+  content: "Khomgrit(ต้น)";
+  color: #fcfcfc;
+  background-color: #530079;
+  padding: 7px;
+  border-radius: 3rem;
 }
 #participant-12 .participant-quote::before {
+  content: "Stay humble ";
+  color: #ffffff;
+  font-size: medium;
+  font-weight: 900;
+  margin-top: .5rem;
+  padding: 7px;
+  background-color: #530079;
+  border-radius: 3rem;
 }
-
-#participant-12 .participant-quote::before {
-}
-
 /* Next participant */
 #participant-13 {
   background-image: url("https://media.licdn.com/dms/image/v2/D5603AQGbduRoMI2m1A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1719571399096?e=1745452800&v=beta&t=tL9TGhGSVHCp6v1cvhgOrlBGEdcb6jDvhGVyrYBIqdM");
