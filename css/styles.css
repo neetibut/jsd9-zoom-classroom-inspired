@@ -162,14 +162,23 @@ body {
 }
 /* Next participant */
 #participant-8 {
+  background-color: #f4f1ec;
+  border: 2px solid #d0b89f;
+  box-shadow: 0 4px 8px rgba(208, 184, 159, 0.2);
+  border-radius: 15px;
 }
 #participant-8 .profile-photo {
-  background-image: url("../images/participant-8.jpg");
+  background-image: url("../images/08-tob-profile.jpg");
+  border: 4px solid #d0b89f;
 }
 #participant-8 .participant-name::before {
-  content: "Your Name Here";
+  content: "Tob(ต๊อบ)";
+  color: #6a4e34;
 }
 #participant-8 .participant-quote::before {
+  content: "I love my dogs 🐶 and aspire to be a quality-of-life developer 💻✨.";
+  color: #6a4e34;
+  font-size: 11px;
 }
 /* Next participant */
 #participant-9 {
