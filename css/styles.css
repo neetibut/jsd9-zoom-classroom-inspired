@@ -280,17 +280,31 @@ body {
   -o-transform: translateX(-50%);
 }
 /* Next participant */
-#participant-14 {}
+#participant-14 {
+	background-image: url("../images/bass-bg.png");
+	background-position: center;
+	background-size: cover;
+	position: 'relative';
+	border: dodgerblue solid 2px;
+}
 
 #participant-14 .profile-photo {
-	background-image: url("../images/participant-4.jpg");
+	background-image: url("../images/bass-profile.jpeg");
+	outline: crimson solid 3px;
+	box-shadow: 4px 4px 3px #333;
 }
 
 #participant-14 .participant-name::before {
-	content: "Your Name Here";
+	content: "Kriangkai (Bass/เบส)";
+	color: gold;
+	text-shadow: 2px 2px 2px #333;
 }
 
-#participant-14 .participant-quote::before {}
+#participant-14 .participant-quote::before {
+	color: rgb(41, 233, 80);
+	content: "Every experience will make you grow up";
+	text-shadow: 2px 2px 1px #333;
+}
 
 /* Next participant */
 #participant-15 {}
