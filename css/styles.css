@@ -330,14 +330,25 @@ body {
 #participant-14 .participant-quote::before {}
 
 /* Next participant */
-#participant-15 {}
-
+#participant-15 {
+  background-color: #9a97c6;
+  border: 3px solid #00796b;
+  box-shadow: 0 4px 10px rgba(0, 121, 107, 0.4);
+  border-radius: 15px;
+}
 #participant-15 .profile-photo {
-	background-image: url("../images/participant-5.jpg");
+  background-image: url("../images/nutpic.jpg");
+  outline: rgb(143, 63, 63) solid;
+  border: 0px;
 }
 
 #participant-15 .participant-name::before {
-	content: "Your Name Here";
+  content: "Nuttnon(Nut)";
+  color: #ddd9d3;
+}
+#participant-15 .participant-quote::before {
+  content: "keep moving forward,every step brings you closer to sucsess";
+  color: #ddd9d3;
 }
 
 #participant-15 .participant-quote::before {}
