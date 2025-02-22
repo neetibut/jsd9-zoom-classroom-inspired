@@ -102,17 +102,23 @@ body {
 
 /* Next participant */
 #participant-2 {
+  background-color: #fafafa;
+  border: 3px solid #b8860b;
+  box-shadow: 0 4px 10px rgba(184, 134, 11, 0.4);
+  border-radius: 15px;
 }
 
 #participant-2 .profile-photo {
-  background-image: url("../images/participant-2.jpg");
+  background-image: url("../images/arunya-profile.png");
+  border: 3px solid #e5d1b7;
 }
 
 #participant-2 .participant-name::before {
-  content: "Your Name Here";
+  content: "Arunya (May)";
 }
 
 #participant-2 .participant-quote::before {
+  content: "🎄Programing teaches you how to think🎄 (cr.Bill Gates)";
 }
 
 /* Next participant */
