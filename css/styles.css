@@ -123,17 +123,32 @@ body {
 #participant-3 .participant-quote::before {}
 
 /* Next participant */
-#participant-4 {}
+#participant-4 {
+	background-image: url(https://www.hungryones.com/wp-content/uploads/2023/06/2013.3.29.forest.gump_._2431.1-scaled.jpg);
+	background-size: cover;
+	background-position: top ;
+	background-repeat: no-repeat;
+}
 
 #participant-4 .profile-photo {
-	background-image: url("../images/participant-4.jpg");
+	background-image: url("../images/forest_tong.jpg");
 }
 
 #participant-4 .participant-name::before {
-	content: "Your Name Here";
+	content: "Chirayuth Konghin";
+	color: #121212;
+	background-color: #e33e3e;
+	padding: 3px;
+	border-radius: 5px;
+	filter: drop-shadow(1px 1px 1px rgb(239, 232, 232));
 }
 
-#participant-4 .participant-quote::before {}
+#participant-4 .participant-quote::before {
+	content: "Run! Code ... Run !!!";
+	font-size: 0.8rem;
+	font-weight: 600;
+	color: #ffffff;
+}
 
 /* Next participant */
 #participant-5 {}
@@ -218,6 +233,7 @@ body {
 
 #participant-11 .profile-photo {
 	background-image: url("../images/participant-1.jpg");
+	border: #111 solid 2px;
 }
 
 #participant-11 .participant-name::before {
