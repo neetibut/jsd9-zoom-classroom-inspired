@@ -197,14 +197,23 @@ body {
 #participant-6 .participant-quote::before {}
 
 /* Next participant */
-#participant-7 {}
-
+#participant-7 {
+  background-image: url(https://today-obs.line-scdn.net/0hdGvxMVhoO2hLASwXgqpEP3NXNxl4ZyFhaTNwWmgFMVhmLXo-cTBoCz5SZkRvMys7azUjCjxVYlxhZC49Jw/w644);
+  background-size: cover;
+}
 #participant-7 .profile-photo {
-	background-image: url("../images/participant-7.jpg");
+  background-image: url("https://i.pinimg.com/736x/b8/c7/f2/b8c7f2f39c28ae20a95ef631cdb6d20a.jpg");
 }
 
 #participant-7 .participant-name::before {
-	content: "Your Name Here";
+  content: "Jakapat Pattanasiri";
+  font-weight: bold;
+  color: rgb(255, 242, 0);
+}
+#participant-7 .participant-quote::before {
+  content: "No enemy, but if you have one, it's yourself.";
+  font-weight: bold;
+  color: rgb(0, 0, 0);
 }
 
 #participant-7 .participant-quote::before {}
