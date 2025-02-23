@@ -1,4 +1,5 @@
 /* Reset default styles */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
 body,
 h1 {
   margin: 0;
@@ -130,10 +131,11 @@ body {
 
 /* Next participant */
 #participant-3 {
-  background: rgb(238,174,202);
-  background: radial-gradient(circle, rgba(238,174,202,0.9220063025210083) 0%, rgba(148,233,218,0.9023984593837535) 100%);
+  background: rgb(238, 174, 202);
+  background: radial-gradient(circle, rgba(238, 174, 202, 0.9220063025210083) 0%, rgba(148, 233, 218, 0.9023984593837535) 100%);
   border-color: rgb(235, 234, 219);
 }
+
 #participant-3 .profile-photo {
   background-image: url("../images/blue_profile.jpg");
   border-color: #d670d16c;
@@ -149,6 +151,7 @@ body {
   -ms-border-radius: 0.5rem;
   -o-border-radius: 0.5rem;
 }
+
 #participant-3 .participant-quote::before {
   content: "Anything can happen⭐";
   font-weight: 600;
@@ -161,52 +164,81 @@ body {
   -o-border-radius: 0.5rem;
   text-align: center;
 }
+
 /* Next participant */
 #participant-4 {
-	background-image: url(https://www.hungryones.com/wp-content/uploads/2023/06/2013.3.29.forest.gump_._2431.1-scaled.jpg);
-	background-size: cover;
-	background-position: top ;
-	background-repeat: no-repeat;
+  background-image: url(https://www.hungryones.com/wp-content/uploads/2023/06/2013.3.29.forest.gump_._2431.1-scaled.jpg);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
 }
 
 #participant-4 .profile-photo {
-	background-image: url("../images/forest_tong.jpg");
+  background-image: url("../images/forest_tong.jpg");
 }
 
 #participant-4 .participant-name::before {
-	content: "Chirayuth Konghin";
-	color: #121212;
-	background-color: #e33e3e;
-	padding: 3px;
-	border-radius: 5px;
-	filter: drop-shadow(1px 1px 1px rgb(239, 232, 232));
+  content: "Chirayuth Konghin";
+  color: #121212;
+  background-color: #e33e3e;
+  padding: 3px;
+  border-radius: 5px;
+  filter: drop-shadow(1px 1px 1px rgb(239, 232, 232));
 }
 
 #participant-4 .participant-quote::before {
-	content: "Run! Code ... Run !!!";
-	font-size: 0.8rem;
-	font-weight: 600;
-	color: #ffffff;
+  content: "Run! Code ... Run !!!";
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #ffffff;
 }
 
 /* Next participant */
 #participant-5 {
+  background-color: hsla(203, 30%, 80%, 0.5);
+  border-color: transparent;
+  border: 2px solid hsla(203, 100%, 21%, 0.25);
+  transition: all 150ms;
+}
+#participant-5:hover {
+  background-color: hsla(203, 100%, 7%, 0.5);
+  border-color: hsla(203, 100%, 7%, 1);
+  border-radius: 4px;
+  box-shadow: 0 2px 8px  hsla(204, 100%, 10%, 0.75);
 }
 
 #participant-5 .profile-photo {
-  background-image: url("../images/participant-5.jpg");
+  background-image: url("../images/05_chin-profile.jpg");
+  border-color: hsla(203, 40%, 40%, 1);
+  filter: grayscale(0.4) drop-shadow(0 1px 6px  hsla(204, 100%, 90%, 1));
+  transition: all 200ms;
+}
+
+#participant-5:hover .profile-photo {
+  border-color: hsla(204, 100%, 95%, 1);
+  filter: drop-shadow(0 1px 6px  hsla(204, 100%, 90%, 1));
 }
 
 #participant-5 .participant-name::before {
-  content: "Your Name Here";
+  content: "Chollasit (Chin)";
+  transition: color 300ms;
+}
+#participant-5:hover .participant-name::before {
+  color: hsla(204, 100%, 100%, 1);
+  text-shadow: 0 1px 1px hsla(204, 100%, 10%, 0.75);
 }
 
 #participant-5 .participant-quote::before {
+  content: 'It works on my machine...';
+  transition: color 400ms;
+}
+#participant-5:hover .participant-quote::before {
+  color: hsla(204, 100%, 96.5%, 0.95);
+  text-shadow: 0 2px 0.5em hsla(204, 100%, 90%, 0.95);
 }
 
 /* Next participant */
-#participant-6 {
-}
+#participant-6 {}
 
 #participant-6 .profile-photo {
   background-image: url("../images/participant-6.jpg");
@@ -216,14 +248,14 @@ body {
   content: "Your Name Here";
 }
 
-#participant-6 .participant-quote::before {
-}
+#participant-6 .participant-quote::before {}
 
 /* Next participant */
 #participant-7 {
   background-image: url(https://today-obs.line-scdn.net/0hdGvxMVhoO2hLASwXgqpEP3NXNxl4ZyFhaTNwWmgFMVhmLXo-cTBoCz5SZkRvMys7azUjCjxVYlxhZC49Jw/w644);
   background-size: cover;
 }
+
 #participant-7 .profile-photo {
   background-image: url("https://i.pinimg.com/736x/b8/c7/f2/b8c7f2f39c28ae20a95ef631cdb6d20a.jpg");
 }
@@ -233,14 +265,14 @@ body {
   font-weight: bold;
   color: rgb(255, 242, 0);
 }
+
 #participant-7 .participant-quote::before {
   content: "No enemy, but if you have one, it's yourself.";
   font-weight: bold;
   color: rgb(0, 0, 0);
 }
 
-#participant-7 .participant-quote::before {
-}
+#participant-7 .participant-quote::before {}
 
 /* Next participant */
 #participant-8 {
@@ -268,22 +300,94 @@ body {
 
 /* Next participant */
 #participant-9 {
+  background-image: linear-gradient(to right bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  background-size: 200% 200%;
+  background-position: 0 50%;
+  border: none;
+  outline: none;
+  transition: all 0.3s ease;
+  animation: backgroundShift 3s linear infinite alternate;
+}
+
+#participant-9:hover {
+  border-radius: 0;
+  border: none;
+}
+
+@keyframes backgroundShift {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
 }
 
 #participant-9 .profile-photo {
-  background-image: url("../images/participant-9.jpg");
+  background: url("../images/JHA-09.jpg") center/cover no-repeat;
 }
 
 #participant-9 .participant-name::before {
-  content: "Your Name Here";
+  content: "JHA J.";
+  color: #FFF;
 }
 
 #participant-9 .participant-quote::before {
+  content: 'Rise and slay. Try again..';
+  font-size: 0.7rem;
+  color: #FFF;
+  border-right: 2px solid #FFF;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  width: 0;
+  opacity: 0;
+  animation: textTyping 5s steps(24) 1s forwards, blinkCursor 0.75s step-end infinite;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes textTyping {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+@keyframes blinkCursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+#participant-9 .participant-quote::after {
+  content: "";
+  animation: textErase 4s steps(24) 5s forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes textErase {
+  0% {
+    width: 100%;
+    opacity: 1;
+  }
+  100% {
+    width: 0;
+    opacity: 0;
+  }
 }
 
 /* Next participant */
 #participant-10 {
-  background: linear-gradient(to right, #e7bc45, #526daa) ;
+  background: linear-gradient(to right, #e7bc45, #526daa);
   border: #504c4c solid 1px;
   box-shadow: 1.5px 1.5px 2.5px #3a3737, 2.5px 2.5px 4.5px #2a2828;
 }
@@ -306,30 +410,30 @@ body {
 }
 
 /* Next participant */
-#participant-11 {
-}
+#participant-11 {}
 
 #participant-11 .profile-photo {
-	background-image: url("../images/participant-1.jpg");
-	border: #111 solid 2px;
+  background-image: url("../images/participant-1.jpg");
+  border: #111 solid 2px;
 }
 
 #participant-11 .participant-name::before {
   content: "Your Name Here";
 }
 
-#participant-11 .participant-quote::before {
-}
+#participant-11 .participant-quote::before {}
 
 /* Next participant */
 #participant-12 {
   border: solid 3px #ffffff;
-  background-image :url(https://i.postimg.cc/kXj8Xsg2/Cloth-Scene.gif); 
+  background-image: url(https://i.postimg.cc/kXj8Xsg2/Cloth-Scene.gif);
   filter: drop-shadow(0 0 0.75rem #530079);
 }
+
 #participant-12 .profile-photo {
   background-image: url(https://i.postimg.cc/C56DMyyL/4.png);
 }
+
 #participant-12 .participant-name::before {
   content: "Khomgrit(ต้น)";
   color: #fcfcfc;
@@ -337,6 +441,7 @@ body {
   padding: 7px;
   border-radius: 3rem;
 }
+
 #participant-12 .participant-quote::before {
   content: "Stay humble ";
   color: #ffffff;
@@ -347,6 +452,7 @@ body {
   background-color: #530079;
   border-radius: 3rem;
 }
+
 /* Next participant */
 #participant-13 {
   background-image: url("https://media.licdn.com/dms/image/v2/D5603AQGbduRoMI2m1A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1719571399096?e=1745452800&v=beta&t=tL9TGhGSVHCp6v1cvhgOrlBGEdcb6jDvhGVyrYBIqdM");
@@ -354,6 +460,7 @@ body {
   background-size: cover;
   position: relative;
 }
+
 #participant-13 .profile-photo {
   border: none;
 }
@@ -374,6 +481,7 @@ body {
   -o-transform: translateX(-50%);
   background-color: #111;
 }
+
 #participant-13 .participant-quote::before {
   position: absolute;
   bottom: 3%;
@@ -387,29 +495,34 @@ body {
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
 }
+
 /* Next participant */
 #participant-14 {
-	background-image: url("../images/bass-bg.png");
-	background-position: center;
-	background-size: cover;
-	position: 'relative';
-	border: dodgerblue solid 2px;
+  background-image: url("../images/bass-bg.png");
+  background-position: center;
+  background-size: cover;
+  position: 'relative';
+  border: dodgerblue solid 2px;
 }
+
 #participant-14 .profile-photo {
-	background-image: url("../images/bass-profile.jpeg");
-	outline: crimson solid 3px;
-	box-shadow: 4px 4px 3px #333;
+  background-image: url("../images/bass-profile.jpeg");
+  outline: crimson solid 3px;
+  box-shadow: 4px 4px 3px #333;
 }
+
 #participant-14 .participant-name::before {
-	content: "Kriangkai (Bass/เบส)";
-	color: gold;
-	text-shadow: 2px 2px 2px #333;
+  content: "Kriangkai (Bass/เบส)";
+  color: gold;
+  text-shadow: 2px 2px 2px #333;
 }
+
 #participant-14 .participant-quote::before {
-	color: rgb(41, 233, 80);
-	content: "Every experience will make you grow up";
-	text-shadow: 2px 2px 1px #333;
+  color: rgb(41, 233, 80);
+  content: "Every experience will make you grow up";
+  text-shadow: 2px 2px 1px #333;
 }
+
 /* Next participant */
 #participant-15 {
   background-color: #9a97c6;
@@ -417,6 +530,7 @@ body {
   box-shadow: 0 4px 10px rgba(0, 121, 107, 0.4);
   border-radius: 15px;
 }
+
 #participant-15 .profile-photo {
   background-image: url("../images/nutpic.jpg");
   outline: rgb(143, 63, 63) solid;
@@ -427,13 +541,13 @@ body {
   content: "Nuttnon(Nut)";
   color: #ddd9d3;
 }
+
 #participant-15 .participant-quote::before {
   content: "keep moving forward,every step brings you closer to sucsess";
   color: #ddd9d3;
 }
 
-#participant-15 .participant-quote::before {
-}
+#participant-15 .participant-quote::before {}
 
 /* Next participant */
 #participant-16 {
@@ -449,6 +563,7 @@ body {
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
 }
+
 #participant-16 .profile-photo {
   background-image: url("../images/jsd_orachun_profile.jpg");
 }
@@ -456,22 +571,18 @@ body {
 #participant-16 .participant-name::before {
   content: "Orachun (ชี้ค)";
 }
+
 #participant-16 .participant-quote::before {
   content: "Knowledge is The Endless journey.🎠";
 }
 
-#participant-16 .participant-quote::before {
-}
+#participant-16 .participant-quote::before {}
 
 /* Next participant */
 #participant-17 {
-  background: radial-gradient(
-    circle,
-    rgba(63, 215, 251, 0.435) 0%,
-    rgba(217, 252, 70, 1) 100%
-  );
+  background-image: url(../images/oraya-bg.svg);
   border: 3px solid rgba(39, 59, 20, 0.759);
-  box-shadow: 0 5px 10px rgb(199, 208, 159);
+  box-shadow: 0 5px 10px rgb(34, 34, 33);
   border-radius: 15px;
 }
 
@@ -480,40 +591,40 @@ body {
 }
 
 #participant-17 .participant-name::before {
-  content: "Oraya Chantanawat";
+  content: "Oraya (Aliz/อลิช)";
+  color: #1a5048;
 }
 
 #participant-17 .participant-quote::before {
   content: "🚀 Never stop learning, because life never stops teaching.";
+  color: #00796b;
 }
 
 /* Next participant */
 #participant-18 {
-	background: repeating-radial-gradient(yellow blue 20%
-	);
-	border: 2px; 
-	/* box-shadow: blue; */
-	border-radius: 10px;
-	width: 250px;
-	height: 250px;
+  background: repeating-radial-gradient(yellow blue 20%);
+  border: 2px;
+  /* box-shadow: blue; */
+  border-radius: 10px;
+  width: 250px;
+  height: 250px;
 }
 
 #participant-18 .profile-photo {
-	background-image: url("../images/toey.jpg") ;
-    background-repeat: no-repeat;
+  background-image: url("../images/toey.jpg");
+  background-repeat: no-repeat;
 }
 
 #participant-18 .participant-name::before {
-	content: "Phaothai chokbundit Toey";
+  content: "Phaothai chokbundit Toey";
 }
 
 #participant-18 .participant-quote::before {
-	content: "สู้ๆนะครับ";
+  content: "สู้ๆนะครับ";
 }
 
 /* Next participant */
-#participant-19 {
-}
+#participant-19 {}
 
 #participant-19 .profile-photo {
   background-image: url("../images/participant-9.jpg");
@@ -523,28 +634,30 @@ body {
   content: "Your Name Here";
 }
 
-#participant-19 .participant-quote::before {
-}
+#participant-19 .participant-quote::before {}
 
 /* Next participant */
 #participant-20 {
-  background-color: #900C3F ;
-  border: solid 5px #C70039  ;
+  background-color: #900C3F;
+  border: solid 5px #C70039;
 }
+
 #participant-20 .profile-photo {
   background-image: url("/images/เสือ.jpg");
 }
+
 #participant-20 .participant-name::before {
   content: "pongharit kitudom";
-  color:#FFC300  ;
+  color: #FFC300;
 }
+
 #participant-20 .participant-quote::before {
-  content: "🚀 ถ้าเธอชอบคนเก่ง เราเขียน Hello World เป็นนะ" ;
+  content: "🚀 ถ้าเธอชอบคนเก่ง เราเขียน Hello World เป็นนะ";
   color: #DAF7A6;
 }
+
 /* Next participant */
-#participant-21 {
-}
+#participant-21 {}
 
 #participant-21 .profile-photo {
   background-image: url("../images/participant-1.jpg");
@@ -554,12 +667,10 @@ body {
   content: "Your Name Here";
 }
 
-#participant-21 .participant-quote::before {
-}
+#participant-21 .participant-quote::before {}
 
 /* Next participant */
-#participant-22 {
-}
+#participant-22 {}
 
 #participant-22 .profile-photo {
   background-image: url("../images/participant-2.jpg");
@@ -569,12 +680,10 @@ body {
   content: "Your Name Here";
 }
 
-#participant-22 .participant-quote::before {
-}
+#participant-22 .participant-quote::before {}
 
 /* Next participant */
-#participant-23 {
-}
+#participant-23 {}
 
 #participant-23 .profile-photo {
   background-image: url("../images/sudkhett.jpg");
@@ -584,57 +693,73 @@ body {
   content: "Sudkhett Pitakplangkru";
 }
 
-#participant-23 .participant-quote::before {
-}
+#participant-23 .participant-quote::before {}
 
 /* Next participant */
 #participant-24 {
+  background-image: url("../images/TBprofile.jpg"); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: dashed 2px rgb(50, 45, 38);
 }
 
 #participant-24 .profile-photo {
-  background-image: url("../images/participant-4.jpg");
+ border: none;
 }
 
 #participant-24 .participant-name::before {
-  content: "Your Name Here";
+  content: "Suntarinth_Tib";
+  font-family: "Caveat", serif;
+  font-size: large;
+  font-weight: 700;
+  border: none;
+  border-radius: 3px;
+  color: #322f2b;
+  background-color: #f1e0ce;
+  opacity: 0.7;
 }
 
 #participant-24 .participant-quote::before {
-}
+  content: "Fail better ";
+  background: linear-gradient(to right bottom,#f1a183,#ed884c,#e64f25,#bd2630,#991b27);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  border: none;
+} 
 
 /* Next participant */
-#participant-25 {
-}
+#participant-25 {}
 
 #participant-25 .profile-photo {
-  background-image: url("../images/participant-5.jpg");
+  background-image: url("../images/participant-6.png");
 }
 
 #participant-25 .participant-name::before {
   content: "Your Name Here";
 }
 
-#participant-25 .participant-quote::before {
-}
+#participant-25 .participant-quote::before {}
 
 /* Next participant */
 #participant-26 {
-	background-color: #efc9af;
-	border: 3px solid #104c91;
-	box-shadow: 0 4px 10px #1f8ac0;
-	border-radius: 15px;
+  background-color: #efc9af;
+  border: 3px solid #104c91;
+  box-shadow: 0 4px 10px #1f8ac0;
+  border-radius: 15px;
 }
 
 #participant-26 .profile-photo {
-	background-image: url("../images/tanida-profile.jpg");
+  background-image: url("../images/tanida-profile.jpg");
 }
 
 #participant-26 .participant-name::before {
-	content: "Tanida (Pang/แป้ง)";
+  content: "Tanida (Pang/แป้ง)";
 }
 
 #participant-26 .participant-quote::before {
-	content: "Don't Stop Until Your're Proud.";
+  content: "Don't Stop Until Your're Proud.";
 }
 
 /* Next participant */
@@ -647,12 +772,15 @@ body {
 #participant-27 .profile-photo {
   background-image: url("../images/tanut-profile.jpg");
 }
+
 #participant-27 .participant-name::before {
   content: "Tanut Ketrueang";
 }
+
 #participant-27 .participant-quote::before {
   content: "If you give in, they'll be right.";
 }
+
 #participant-27:hover {
   background-color: #4195cc;
   border: 3px solid black;
@@ -666,20 +794,20 @@ body {
 #participant-27:hover .participant-name::before {
   color: white;
 }
+
 /* Next participant */
-#participant-28 {
-}
+#participant-28 {}
 
 #participant-28 .profile-photo {
-	background-image: url("../images/profile.jpg");
+  background-image: url("../images/profile.jpg");
 }
 
 #participant-28 .participant-name::before {
-	content: "Tawatchai Jitporn";
+  content: "Tawatchai Jitporn";
 }
 
 #participant-28 .participant-quote::before {
-	content: "Keep Learning!!! Keep Going!!!";
+  content: "Keep Learning!!! Keep Going!!!";
 }
 
 /* Next participant */
@@ -709,8 +837,7 @@ body {
 }
 
 /* Next participant */
-#participant-30 {
-}
+#participant-30 {}
 
 #participant-30 .profile-photo {
   background-image: url("../images/participant-10.jpg");
@@ -720,8 +847,7 @@ body {
   content: "Your Name Here";
 }
 
-#participant-30 .participant-quote::before {
-}
+#participant-30 .participant-quote::before {}
 
 /* Next participant */
 #participant-31 {
@@ -729,6 +855,7 @@ body {
   border: 0;
   background-image: linear-gradient(to right bottom, #747481, #5d5d67, #47474e, #323236, #1e1e20);
 }
+
 #participant-31 .profile-photo {
   background-image: url("../images/241016-resume-hug.jpg");
   background-position: top;
@@ -738,13 +865,14 @@ body {
   color: #fff;
   content: "Thanawat (อาร์ต)";
 }
+
 #participant-31 .participant-quote::before {
   color: #d5d5da;
   content: "Failure isn't real unless you quit for real";
 }
+
 /* Next participant */
-#participant-32 {
-}
+#participant-32 {}
 
 #participant-32 .profile-photo {
   background-image: url("../images/participant-2.jpg");
@@ -754,12 +882,10 @@ body {
   content: "Your Name Here";
 }
 
-#participant-32 .participant-quote::before {
-}
+#participant-32 .participant-quote::before {}
 
 /* Next participant */
-#participant-33 {
-}
+#participant-33 {}
 
 #participant-33 .profile-photo {
   background-image: url("../images/participant-3.jpg");
@@ -769,12 +895,10 @@ body {
   content: "Your Name Here";
 }
 
-#participant-33 .participant-quote::before {
-}
+#participant-33 .participant-quote::before {}
 
 /* Next participant */
-#participant-34 {
-}
+#participant-34 {}
 
 #participant-34 .profile-photo {
   background-image: url("../images/participant-4.jpg");
@@ -784,33 +908,31 @@ body {
   content: "Your Name Here";
 }
 
-#participant-34 .participant-quote::before {
-}
+#participant-34 .participant-quote::before {}
 
 /* Next participant */
 #participant-35 {
-	background-color: #85A947;
-	border: 3px solid #3E7B27;
+  background-color: #85A947;
+  border: 3px solid #3E7B27;
 }
 
 #participant-35 .profile-photo {
-	background-image: url("https://static.vecteezy.com/system/resources/thumbnails/008/101/584/small_2x/floating-green-mustard-lettuce-cartoon-icon-illustration-food-nature-icon-concept-isolated-premium-vector.jpg");
-	border: 3px solid #3E7B27
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/008/101/584/small_2x/floating-green-mustard-lettuce-cartoon-icon-illustration-food-nature-icon-concept-isolated-premium-vector.jpg");
+  border: 3px solid #3E7B27
 }
 
 #participant-35 .participant-name::before {
-	content: "pakkaddd";
-	color: #123524;
+  content: "pakkaddd";
+  color: #123524;
 }
 
 #participant-35 .participant-quote::before {
-	content: "may the force be with you.";
-	color: #123524;
+  content: "may the force be with you.";
+  color: #123524;
 }
 
 /* Next participant */
-#participant-36 {
-}
+#participant-36 {}
 
 #participant-36 .profile-photo {
   background-image: url("../images/participant-6.jpg");
@@ -820,8 +942,7 @@ body {
   content: "Your Name Here";
 }
 
-#participant-36 .participant-quote::before {
-}
+#participant-36 .participant-quote::before {}
 
 /* Next participant */
 #participant-37 {
@@ -829,34 +950,35 @@ body {
   border: 2px solid #333;
   border-radius: 0;
 }
+
 #participant-37 .profile-photo {
   background-image: url("https://introduction-to-web-application.vercel.app/profile.jpg");
-  clip-path: polygon(
-    evenodd,
-    35.75% 25.45%,
-    63.17% 26.81%,
-    73.25% 10.5%,
-    83.96% 35.5%,
-    89.23% 47.8%,
-    84.41% 69.9%,
-    73.25% 85.5%,
-    60.75% 85.5%,
-    60.75% 85.5%,
-    35.75% 85.5%,
-    35.75% 85.5%,
-    23.25% 85.5%,
-    12.54% 69.9%,
-    9.95% 52.7%,
-    12.54% 35.5%,
-    24.15% 10.5%
-  );
+  clip-path: polygon(evenodd,
+      35.75% 25.45%,
+      63.17% 26.81%,
+      73.25% 10.5%,
+      83.96% 35.5%,
+      89.23% 47.8%,
+      84.41% 69.9%,
+      73.25% 85.5%,
+      60.75% 85.5%,
+      60.75% 85.5%,
+      35.75% 85.5%,
+      35.75% 85.5%,
+      23.25% 85.5%,
+      12.54% 69.9%,
+      9.95% 52.7%,
+      12.54% 35.5%,
+      24.15% 10.5%);
 }
+
 #participant-37 .participant-name::before {
   content: "John Doe";
   color: gold;
   font-weight: 600;
   font-family: monospace;
 }
+
 #participant-37 .participant-quote::before {
   content: "Kindness is the ultimate strength. 😎";
   color: gold;
@@ -864,6 +986,7 @@ body {
   font-style: normal;
   font-weight: 300;
 }
+
 /* Next participant */
 #participant-38 {
   background-color: #e0f7fa;
