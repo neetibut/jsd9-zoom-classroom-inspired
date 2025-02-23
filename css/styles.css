@@ -184,17 +184,46 @@ body {
 
 /* Next participant */
 #participant-5 {
+  background-color: hsla(203, 30%, 80%, 0.5);
+  border-color: transparent;
+  border: 2px solid hsla(203, 100%, 21%, 0.25);
+  transition: all 150ms;
+}
+#participant-5:hover {
+  background-color: hsla(203, 100%, 7%, 0.5);
+  border-color: hsla(203, 100%, 7%, 1);
+  border-radius: 4px;
+  box-shadow: 0 2px 8px  hsla(204, 100%, 10%, 0.75);
 }
 
 #participant-5 .profile-photo {
-  background-image: url("../images/participant-5.jpg");
+  background-image: url("../images/05_chin-profile.jpg");
+  border-color: hsla(203, 40%, 40%, 1);
+  filter: grayscale(0.4) drop-shadow(0 1px 6px  hsla(204, 100%, 90%, 1));
+  transition: all 200ms;
+}
+
+#participant-5:hover .profile-photo {
+  border-color: hsla(204, 100%, 95%, 1);
+  filter: drop-shadow(0 1px 6px  hsla(204, 100%, 90%, 1));
 }
 
 #participant-5 .participant-name::before {
-  content: "Your Name Here";
+  content: "Chollasit (Chin)";
+  transition: color 300ms;
+}
+#participant-5:hover .participant-name::before {
+  color: hsla(204, 100%, 100%, 1);
+  text-shadow: 0 1px 1px hsla(204, 100%, 10%, 0.75);
 }
 
 #participant-5 .participant-quote::before {
+  content: 'It works on my machine...';
+  transition: color 400ms;
+}
+#participant-5:hover .participant-quote::before {
+  color: hsla(204, 100%, 96.5%, 0.95);
+  text-shadow: 0 2px 0.5em hsla(204, 100%, 90%, 0.95);
 }
 
 /* Next participant */
