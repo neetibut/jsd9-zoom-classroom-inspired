@@ -87,12 +87,13 @@ body {
 #participant-1 {
 }
 #participant-1 .profile-photo {
-  background-image: url("../images/participant-1.jpg");
+  background-image: url("../images/anawat-pro.jpg");
 }
 #participant-1 .participant-name::before {
-  content: "Your Name Here";
+  content: "Anawat(กัน)";
 }
 #participant-1 .participant-quote::before {
+  content: "What goes around comes around 💫"
 }
 /* Next participant */
 #participant-2 {
