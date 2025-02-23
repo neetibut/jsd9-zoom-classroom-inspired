@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Zoom Classroom Mockup</title>
-        <link rel="stylesheet" href="css/styles.css" />
-    </head>
-    <body>
-        <h1 class="title">Software Developers of JSD9 Bootcamp!</h1>
-        <div class="container">
-            <!-- 38 participant boxes -->
-            <script>
-                for (let i = 1; i <= 38; i++) {
-                    document.write(`
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zoom Classroom Mockup</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <h1 class="title">Software Developers of JSD9 Bootcamp!</h1>
+    <div class="container">
+      <!-- 38 participant boxes -->
+      <script>
+        for (let i = 1; i <= 38; i++) {
+          document.write(`
                <div class="participant" id="participant-${i}">
             <div class="profile-photo"></div>
             <div class="participant-name" data-name="Participant ${i}"></div>
             <div class="participant-quote" data-quote="Your inspirational quote here."></div>
             </div>
         `);
-                }
-            </script>
-        </div>
-    </body>
+        }
+      </script>
+    </div>
+  </body>
 </html>
