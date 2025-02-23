@@ -730,17 +730,47 @@ body {
 } 
 
 /* Next participant */
-#participant-25 {}
+#participant-25 {
+  border: 3px solid #ffffff;
+  background-image: url("../images/aomprofile.png");
+  background-size: cover;
+  background-position: center;
+}
 
+#participant-25:hover {
+  background-image: none;
+  background-image: linear-gradient(315deg, #000000 0%, #ffffff 74%);
+}
 #participant-25 .profile-photo {
-  background-image: url("../images/participant-6.png");
+ border: none;
+}
+
+#participant-25:hover .profile-photo {
+  background-image: url("../images/aomprofile.png");
 }
 
 #participant-25 .participant-name::before {
-  content: "Your Name Here";
+ content: none;
 }
 
-#participant-25 .participant-quote::before {}
+#participant-25:hover .participant-name::before {
+  content: "Suphol (ออม)";
+  color: rgb(255, 255, 255);
+  
+}
+
+#participant-25 .participant-quote::before {
+  content: "Never memorize something that you can look up.";
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+#participant-25:hover .participant-quote::before {
+ /*  background-image: linear-gradient(315deg, #000000 0%, #ffffff 74%); */
+  opacity: 1;
+ /*  background: linear-gradient(to right, rgb(170, 169, 169), rgb(58, 57, 57)) */
+}
 
 /* Next participant */
 #participant-26 {
