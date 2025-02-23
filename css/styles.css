@@ -283,14 +283,21 @@ body {
 }
 /* Next participant */
 #participant-19 {
+  background-image: radial-gradient(circle,yellow,green);
+  border: 3px solid greenyellow;
+  box-shadow: 0 4px 10px rgba(0, 121, 107, 0.4);
+  border-radius: 15px;
 }
 #participant-19 .profile-photo {
-  background-image: url("../images/participant-9.jpg");
+  background-image: url("../images/piyaphon-profile.jpg");
 }
 #participant-19 .participant-name::before {
-  content: "Your Name Here";
+  color: black;
+  content: "Piyaphon Waharak";
 }
 #participant-19 .participant-quote::before {
+  color: black;
+  content:"ทำ 100% เท่าที่รู้ ไม่ต้องรอให้รู้ 100% แล้วลงมือทำ";
 }
 /* Next participant */
 #participant-20 {
