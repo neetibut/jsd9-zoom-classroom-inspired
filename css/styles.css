@@ -87,18 +87,24 @@ body {
 }
 
 /* 🤗 Customization section for each participant */
-#participant-1 {}
+#participant-1 {
+  background-image: url("../images/aespabg.jpg");
+  border: 2px solid cyan;
+}
 
 #participant-1 .profile-photo {
   background-image: url("../images/anawat-pro.jpg");
+  border: 2px solid cyan;
 }
 
 #participant-1 .participant-name::before {
-  content: "Anawat(กัน)";
+  content: "Anawat (กัน)";
+  color: #ff8f97;
 }
 
 #participant-1 .participant-quote::before {
-  content: "What goes around comes around 💫"
+  content: "What goes around comes around 💫";
+  color: #e9c063;
 }
 
 /* Next participant */
