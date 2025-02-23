@@ -413,15 +413,17 @@ body {
 #participant-11 {}
 
 #participant-11 .profile-photo {
-  background-image: url("../images/participant-1.jpg");
+  background-image: url("../images/KTP.jpg");
   border: #111 solid 2px;
 }
 
 #participant-11 .participant-name::before {
-  content: "Your Name Here";
+  content: "Kantaphan (Free)";
 }
 
-#participant-11 .participant-quote::before {}
+#participant-11 .participant-quote::before {
+  content: "Que sera sera";
+  color: #e9c456;}
 
 /* Next participant */
 #participant-12 {
