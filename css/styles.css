@@ -752,18 +752,24 @@ body {
 
 /* Next participant */
 #participant-33 {
+  background-image: linear-gradient(to bottom right,#ebbeec, #abcff7 );
+  border: 2px solid #19136e;
+  box-shadow: inset 4px 4px 10px #66427b , 4px 4px 10px #2066b6 ;
 }
 
 #participant-33 .profile-photo {
-  background-image: url("../images/participant-3.jpg");
+  background-image: url("../images/Varinthorn-Profile.jpeg");
 }
 
 #participant-33 .participant-name::before {
-  content: "Your Name Here";
+  content: "Earn";
+}
+#participant-33 .participant-quote::before {
+  content: "Inhale courage, exhale fear";
+  color: #421204;
+  font-size: 11px;
 }
 
-#participant-33 .participant-quote::before {
-}
 
 /* Next participant */
 #participant-34 {
