@@ -666,17 +666,24 @@ body {
 }
 
 /* Next participant */
-#participant-21 {}
+#participant-21 {
+  background: linear-gradient(135deg,#432b10, brown);
+ 
+}
 
 #participant-21 .profile-photo {
-  background-image: url("../images/participant-1.jpg");
+  background-image: url("../images/21_mate.jpg");
 }
 
 #participant-21 .participant-name::before {
-  content: "Your Name Here";
+  content: "Mate ";
+  color: white;
 }
 
-#participant-21 .participant-quote::before {}
+#participant-21 .participant-quote::before {
+  content: "Happy Mate! 😎";
+  color: white;
+}
 
 /* Next participant */
 #participant-22 {}
