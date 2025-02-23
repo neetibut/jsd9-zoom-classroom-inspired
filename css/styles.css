@@ -433,7 +433,7 @@ body {
 #participant-32 .profile-photo {
   background-image: url("https://ca.slack-edge.com/T08AK72NJM6-U08B3JV38GZ-c0e6710cbefe-512");
   border: none;
-  box-shadow: 0 5px 10px rgb(95, 111, 82, 0.8);
+  box-shadow: 0 5px 10px rgb(95, 111, 82, 0.7);
 }
 #participant-32 .participant-name::before {
   content: "Tammy(แตมมี่)";
