@@ -913,18 +913,28 @@ body {
 }
 
 /* Next participant */
-#participant-32 {}
-
+#participant-32 {
+  background-color: #D9DFC6;
+  border: 3px solid #5f6f52;
+  box-shadow: 3px 3px #A4B465;
+}
 #participant-32 .profile-photo {
-  background-image: url("../images/participant-2.jpg");
+  background-image: url("https://ca.slack-edge.com/T08AK72NJM6-U08B3JV38GZ-c0e6710cbefe-512");
+  border: none;
+  box-shadow: 0 5px 10px rgb(95, 111, 82, 0.7);
 }
 
 #participant-32 .participant-name::before {
-  content: "Your Name Here";
+  content: "Tammy(แตมมี่)";
+  background-image: linear-gradient(45deg, #4C4B16 59%, #626F47 31%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-
-#participant-32 .participant-quote::before {}
-
+#participant-32 .participant-quote::before {
+  color: #5f6f52;
+  content: "Happiness is a journey that is not a destination.";
+}
 /* Next participant */
 #participant-33 {
   background-image: linear-gradient(to bottom right,#ebbeec, #abcff7 );
