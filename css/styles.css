@@ -1003,17 +1003,47 @@ body {
 }
 
 /* Next participant */
-#participant-36 {}
+
+@keyframes floatingCats {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100px 100px;
+  }
+}
+
+#participant-36 {
+  background-color: pink;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Ctext x='10' y='50' font-size='30'%3E🐱%3C/text%3E%3Ctext x='50' y='80' font-size='30'%3E😺%3C/text%3E%3Ctext x='60' y='30' font-size='30'%3E😸%3C/text%3E%3C/svg%3E");
+background-size: 100px 100px;
+animation: floatingCats 20s linear infinite;
+-webkit-animation: floatingCats 20s linear infinite;
+}
 
 #participant-36 .profile-photo {
-  background-image: url("../images/participant-6.jpg");
+  background-image: url("../images/cats.png");
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
 }
 
 #participant-36 .participant-name::before {
-  content: "Your Name Here";
+  content: "Kan";
+  font-size: 1.5rem;
+  color: white;
+  -webkit-text-stroke: 0.5px rgb(95, 95, 95);
 }
 
-#participant-36 .participant-quote::before {}
+#participant-36 .participant-quote::before {
+  content: "เขียนโค้ดเจอบัคเขียนรักเจอเธอ";
+  font-size: medium;
+  color: white;
+  font: bolder;
+  -webkit-text-stroke: 0.2px rgb(95, 95, 95);
+}
 
 /* Next participant */
 #participant-37 {
