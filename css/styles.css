@@ -885,17 +885,21 @@ body {
 }
 
 /* Next participant */
-#participant-30 {}
+#participant-30 {
+  background-image: ; #e788d3
+}
 
 #participant-30 .profile-photo {
-  background-image: url("../images/participant-10.jpg");
+  background-image: url("../images/teeraput.jpg");
 }
 
 #participant-30 .participant-name::before {
-  content: "Your Name Here";
+  content: "TEERAPUT VILALAI";
 }
 
-#participant-30 .participant-quote::before {}
+#participant-30 .participant-quote::before {
+  content: "It's never too late to start again";
+}
 
 /* Next participant */
 #participant-31 {
