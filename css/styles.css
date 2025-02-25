@@ -689,17 +689,22 @@ body {
 }
 
 /* Next participant */
-#participant-22 {}
+#participant-22 {
+	background-image: linear-gradient(to bottom,#3674B5, #D1F8EF);
+	border: solid 1px #3674B5;
+}
 
 #participant-22 .profile-photo {
-  background-image: url("../images/participant-2.jpg");
+	background-image: url("../images/sanyalak-profile.jpg");
 }
 
 #participant-22 .participant-name::before {
-  content: "Your Name Here";
+	content: "Sanyalak Tumsuwun";
 }
 
-#participant-22 .participant-quote::before {}
+#participant-22 .participant-quote::before {
+	content: "relax, enjoy and happy. 📗📙📘"
+}
 
 /* Next participant */
 #participant-23 {}
